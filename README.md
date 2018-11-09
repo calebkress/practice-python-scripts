@@ -6,3 +6,4 @@ Storage for my early practice Python scripts
 - combination.py : Calculates the number of combinations of size k from set n.
 - binomial.py: Calculates a binomial distribution.
 - poisson.py: Calculates a poisson distribution.
+- multicomb.py: Calculates multi-step combinations.
