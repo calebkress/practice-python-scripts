@@ -7,3 +7,4 @@ Storage for my early practice Python scripts
 - binomial.py: Calculates a binomial distribution.
 - poisson.py: Calculates a poisson distribution.
 - multicomb.py: Calculates multi-step combinations.
+- factorial.py: Calculates the factorial of a user input.
