@@ -9,3 +9,4 @@ Storage for my early practice Python scripts
 - multicomb.py: Calculates multi-step combinations.
 - factorial.py: Calculates the factorial of a user input.
 - is_prime.py: Checks if a user input is a prime number.
+- letter_count.py: Counts the number of occurrences of a given letter in a given string.
