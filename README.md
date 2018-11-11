@@ -8,3 +8,4 @@ Storage for my early practice Python scripts
 - poisson.py: Calculates a poisson distribution.
 - multicomb.py: Calculates multi-step combinations.
 - factorial.py: Calculates the factorial of a user input.
+- is_prime.py: Checks if a user input is a prime number.
