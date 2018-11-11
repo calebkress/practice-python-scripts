@@ -10,3 +10,4 @@ Storage for my early practice Python scripts
 - factorial.py: Calculates the factorial of a user input.
 - is_prime.py: Checks if a user input is a prime number.
 - letter_count.py: Counts the number of occurrences of a given letter in a given string.
+- checksclamation.py: Checks if a string ends with a '!', and returns the string in all caps if it does.
