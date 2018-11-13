@@ -13,3 +13,5 @@ Storage for my early practice Python scripts
 - checksclamation.py: Checks if a string ends with a '!', and returns the string in all caps if it does.
 - vowel_remover.py: Removes all vowels from a given string.
 - alt_caps.py: Capitalizes every other letter in a given string.
+- evens_list.py: Prints a list of all even numbers between 0 and an input number.
+- divis_list.py: Returns a list of all numbers divisible by a given number between 0 and another given number.
