@@ -11,3 +11,5 @@ Storage for my early practice Python scripts
 - is_prime.py: Checks if a user input is a prime number.
 - letter_count.py: Counts the number of occurrences of a given letter in a given string.
 - checksclamation.py: Checks if a string ends with a '!', and returns the string in all caps if it does.
+- vowel_remover.py: Removes all vowels from a given string.
+- alt_caps.py: Capitalizes every other letter in a given string.
