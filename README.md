@@ -15,3 +15,5 @@ Storage for my early practice Python scripts
 - alt_caps.py: Capitalizes every other letter in a given string.
 - evens_list.py: Prints a list of all even numbers between 0 and an input number.
 - divis_list.py: Returns a list of all numbers divisible by a given number between 0 and another given number.
+- list_checker.py: Takes two lists from user input and finds common elements.
+- multiples_list.py: Outputs a list of multiples of a user input between zero and another user input.
