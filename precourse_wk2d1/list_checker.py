@@ -19,9 +19,10 @@ set2 = [set2a, set2b, set2c, set2d, set2e, set2f, set2g]
 commons = []
 print(set1, set2)
 
-for i, el in enumerate(set1):
-    for j, el in enumerate(set2):
-        if set1[i] == set2[j] and set1[i] not in commons:
-            commons.append(set1[i])
+for i in set1:
+    for j in set2:
+        if i == j and i not in commons:
+            commons.append(i)
 
+commons = sorted(commons)
 print('The common values are {}').format(commons)
