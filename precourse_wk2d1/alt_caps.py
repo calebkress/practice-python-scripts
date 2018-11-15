@@ -5,5 +5,5 @@ for i, char in enumerate(str):
     if i % 2 == 0:
         result += char.upper()
     else:
-        result += char
+        result += char.lower()
 print(result)
