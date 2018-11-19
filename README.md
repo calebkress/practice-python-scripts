@@ -29,3 +29,5 @@ Storage for my early practice Python scripts
   - is_prime2.py: Checks if a user input is a prime number using a function.
   - word_count.py: Counts the number of words in a string.
   - word_count_spec.py: Counts the number of words in a sentence, split by a given delimiter
+  - word_lengths.py: Takes a string and returns a list of each word length.
+  - primes_til_num.py: Returns a list of all primes up to a given number.
