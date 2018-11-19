@@ -25,3 +25,7 @@ Storage for my early practice Python scripts
   - sum_list.py: Computes the sum of a user-input list.
   - list_product.py: Computes the product of items in a user-input list.
   - return_evens.py: Takes a list of numbers and returns the even values.
+  - factorial2.py: Calculates the factorial of a user input using a function.
+  - is_prime2.py: Checks if a user input is a prime number using a function.
+  - word_count.py: Counts the number of words in a string.
+  - word_count_spec.py: Counts the number of words in a sentence, split by a given delimiter
