@@ -23,3 +23,5 @@ Storage for my early practice Python scripts
   - get_lcm.py: Takes 2 user inputs and returns their LCM.
   - beers_left.py: Checks if there are any beers left on the wall.
   - sum_list.py: Computes the sum of a user-input list.
+  - list_product.py: Computes the product of items in a user-input list.
+  - return_evens.py: Takes a list of numbers and returns the even values.
