@@ -21,4 +21,5 @@ Storage for my early practice Python scripts
 - Galvanize Precourse W3D1 Scripts
   - print_divisors.py: Prints all divisors of a user input number.
   - get_lcm.py: Takes 2 user inputs and returns their LCM.
+  - beers_left.py: Checks if there are any beers left on the wall.
   
