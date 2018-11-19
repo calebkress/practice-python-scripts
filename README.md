@@ -18,3 +18,5 @@ Storage for my early practice Python scripts
   - divis_list.py: Returns a list of all numbers divisible by a given number between 0 and another given number.
   - list_checker.py: Takes two lists from user input and finds common elements.
   - multiples_list.py: Outputs a list of multiples of a user input between zero and another user input.
+- Galvanize Precourse W3D1 Scripts
+  - print_divisors.py: Prints all divisors of a user input number.
