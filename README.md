@@ -20,3 +20,5 @@ Storage for my early practice Python scripts
   - multiples_list.py: Outputs a list of multiples of a user input between zero and another user input.
 - Galvanize Precourse W3D1 Scripts
   - print_divisors.py: Prints all divisors of a user input number.
+  - get_lcm.py: Takes 2 user inputs and returns their LCM.
+  
