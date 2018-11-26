@@ -27,7 +27,7 @@ class Cat():
 cat = Cat()
 cat.sense_earthquake(True)
 
-# Car class with the ability to drive
+# Car class with the ability to drive and track gas levels
 class Car():
     def __init__(self, model = 'Camry', color = 'grey', tank_size = 20):
         self.model = model
@@ -42,3 +42,19 @@ car = Car()
 print('The car has {} gallons left in the tank.').format(car.gallons_of_gas)
 car.drive(150)
 print('The car has {} gallons left in the tank.').format(car.gallons_of_gas)
+
+# Plane class with the ability to fly between destinations
+class Plane():
+    def __init__(self, destination='Edinburgh', departure_city='Austin', trip_distance=4676):
+        self.destination = destination
+        self.departure_city = departure_city
+        self.trip_distance = trip_distance
+
+    def fly(self):
+        self.departure_city, self.destination = self.destination, self.departure_city
+
+plane = Plane()
+print('in ' + plane.departure_city, 'heading to ' + plane.destination)
+plane.fly()
+print('Flying')
+print('in ' + plane.departure_city, 'heading to ' + plane.destination)
