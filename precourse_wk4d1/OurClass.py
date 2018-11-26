@@ -11,15 +11,15 @@ class OurClass():
         self.total_lines_code = self.get_num_lines_code()
 
     def add_class_members(self, member):
-        self.check_if_at_capacity()
         if self.at_capacity:
             print('Capacity Reached!!')
         else:
             self.size += 1
             self.members.append(member)
+        self.check_if_at_capacity()
 
     def check_if_at_capacity(self):
-        if self.size >= 20:
+        if self.size >= 10:
             self.at_capacity = True
         else:
             self.at_capacity = False
@@ -91,9 +91,7 @@ ben = Member('Ben', 999)
 test_Member(ben)
 ceci = Member('Ceci', 15000)
 test_Member(ceci)
-tim = Member('Tim', 99)
-test_Member(tim)
-class_members = [caleb, noble, ross, cameron, carter, josh, clay, ben, ceci, tim]
+class_members = [caleb, noble, ross, cameron, carter, josh, clay, ben, ceci]
 
 # define + test OurClass
 our_class = OurClass('HRATX30', 'Austin', class_members)
@@ -107,4 +105,10 @@ test_OurClass(our_class)
 josh.add_coded_line('line of code')
 test_Member(josh)
 our_class = OurClass('HRATX30', 'Austin', class_members)
+test_OurClass(our_class)
+
+# add a new member
+tim = Member('Tim', 99)
+test_Member(tim)
+our_class.add_class_members(tim)
 test_OurClass(our_class)
