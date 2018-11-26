@@ -1,3 +1,4 @@
+# Dog class with the ability to wag tail and increase happiness level
 class Dog():
     def __init__(self, name='Dog', happiness_level=5):
         self.name = name
@@ -11,6 +12,7 @@ class Dog():
 dog = Dog()
 dog.wag_tail(3)
 
+# Cat class with ability to sense an earthquake and run away
 class Cat():
     def __init__(self, name='Cat', laziness_level='5', location='home'):
         self.name = name
@@ -24,3 +26,19 @@ class Cat():
 
 cat = Cat()
 cat.sense_earthquake(True)
+
+# Car class with the ability to drive
+class Car():
+    def __init__(self, model = 'Camry', color = 'grey', tank_size = 20):
+        self.model = model
+        self.color = color
+        self.tank_size = tank_size
+        self.gallons_of_gas = self.tank_size
+
+    def drive(self, miles_driven):
+        self.gallons_of_gas -= (miles_driven / 10)
+
+car = Car()
+print('The car has {} gallons left in the tank.').format(car.gallons_of_gas)
+car.drive(150)
+print('The car has {} gallons left in the tank.').format(car.gallons_of_gas)
