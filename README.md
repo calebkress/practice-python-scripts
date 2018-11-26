@@ -33,3 +33,4 @@ Storage for my early practice Python scripts
   - primes_til_num.py: Returns a list of all primes up to a given number.
 - Galvanize Precourse W4D1 Scripts
   - basic_classes.py: Basic class instantiations of Dog, Cat, Car, and Plane classes with associated methods.
+  - OurClass.py: A refactor of OurClass() from the lesson notes that allows for interaction between classes.
