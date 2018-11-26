@@ -32,4 +32,4 @@ Storage for my early practice Python scripts
   - word_lengths.py: Takes a string and returns a list of each word length.
   - primes_til_num.py: Returns a list of all primes up to a given number.
 - Galvanize Precourse W4D1 Scripts
-  - basic_classes.py: Basic class instantiations of a Dog and Cat class with associated methods.
+  - basic_classes.py: Basic class instantiations of Dog, Cat, Car, and Plane classes with associated methods.
