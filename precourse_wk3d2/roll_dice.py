@@ -1,4 +1,4 @@
-# Rolls a given number of die for each of two players.
+# Rolls a given number of die for each of two players and declares a winner.
 import random
 
 def roll(dice_num):
