@@ -31,6 +31,9 @@ Storage for my early practice Python scripts
   - word_count_spec.py: Counts the number of words in a sentence, split by a given delimiter
   - word_lengths.py: Takes a string and returns a list of each word length.
   - primes_til_num.py: Returns a list of all primes up to a given number.
+  - yes_no.py: Takes a list of numbers and an integer, and returns an array saying whether each number in the list is divisible by the second number.
+  - no_endings.py: Removes all words not ending in a given letter from a given string.
+  - find_substring.py: Returns all positions of words in a string containing a substring.
 - Galvanize Precourse W4D1 Scripts
   - basic_classes.py: Basic class instantiations of Dog, Cat, Car, and Plane classes with associated methods.
   - more_classes.py: Basic class instantiations of Company and TV classes with associated methods.
