@@ -36,6 +36,7 @@ Storage for my early practice Python scripts
   - find_substring.py: Returns all positions of words in a string containing a substring.
 - Galvanize Precourse W3D2 Scripts
   - roll_dice.py: Rolls a given number of die for each of two players and declares a winner.
+  - dinner_bill.py: Calculates the total of a dinner bill, given total, tax rate, and tip percentage.
 - Galvanize Precourse W4D1 Scripts
   - basic_classes.py: Basic class instantiations of Dog, Cat, Car, and Plane classes with associated methods.
   - more_classes.py: Basic class instantiations of Company and TV classes with associated methods.
